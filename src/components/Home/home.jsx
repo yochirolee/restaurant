@@ -75,7 +75,7 @@ export default function Home() {
                 Acepto los Terminos y Condiciones
               </label>
               <div className="invalid-feedback">
-                You must agree before submitting.
+                Por Favor, Acepte los Terminos y Condiciones.
               </div>
             </div>
           </div>

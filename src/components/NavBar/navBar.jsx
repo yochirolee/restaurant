@@ -8,7 +8,7 @@ export default function NavBar(){
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-primary-color">
         <div className="container">
-          <a className="navbar-brand" href="#">RINGPIZZA</a>
+          <a className="navbar-brand" href="#">TuPIZZA</a>
           <button
             className="navbar-toggler"
             type="button"
@@ -34,9 +34,9 @@ export default function NavBar(){
               </ul>
             </div>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-             <Link > 
+         
             <button className="btn btn-lg btn-outline-warning" to='/products'>Login</button>
-            </Link>
+         
           </div>
         </div>
       </nav>
