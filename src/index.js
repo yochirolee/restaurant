@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import  "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "./css/styles.css";
+import "./assets/css/all.css"
 
 ReactDOM.render(
   <React.StrictMode>

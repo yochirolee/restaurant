@@ -1,0 +1,69 @@
+
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 92vh;
+  margin: 0em;
+
+  overflow: hidden;
+  background-color:  #d1333c;
+}
+
+
+.card{
+    margin-top:1rem;
+    color: #2f303a;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+    margin-bottom: 2rem;
+    min-height: 461px;
+  }
+  .card img 
+  {
+    max-width: 80%;
+    margin-top: 1rem;
+    cursor:pointer
+  
+  
+  }
+  
+  .container-ingredients p
+  {
+    font-size: 12px;
+    margin:12px;
+  }
+  
+  .container-price
+  {
+    font-weight: 600;
+    border-bottom: 1px solid #373e445d;
+  }
+  
+  .container-product-name p
+  {
+    font-weight: 1.6rem;
+    font-weight: bold;
+    color: #373e44;
+    
+  }
+  
+  .btn-add-container
+  {
+    margin:2rem;
+    padding: 0 2em ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    justify-content: space-evenly;
+  }
+  
+  .container-counters .badge
+  {
+    border:none;
+    margin: 0 2px;
+    
+  }

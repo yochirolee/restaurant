@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+import "./App.css";
+import NavBarLogged from "./components/NavBar/navbarLogged";
+import NavBar from "./components/NavBar/navBar";
+import ProductCard from "./components/ProductCard/ProductCard";
+import Home from "./components/Home/home";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ProductCardsContainer from "./components/ProductCard/productCardsContainer";
+import { ProductProvider } from "./Context/ProductContext";
+import { ProductsInCardProvider } from "./Context/ProductsInCartContext";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <ProductsInCardProvider>
+        <NavBarLogged />
+
+        <ProductProvider>
+          <ProductCardsContainer />
+        </ProductProvider>
+      </ProductsInCardProvider>
+    </Fragment>
   );
 }
 
