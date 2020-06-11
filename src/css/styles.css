@@ -127,13 +127,14 @@ body {
   .header {
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: 100%;
     margin: 0em;
     background:#d1333c;
     overflow: hidden;
     background-image: url(../assets/img/person-pizza.jpg) ;
     background-size: 100vw 35%;
     background-repeat: no-repeat;
+    margin-bottom:2rem;
     
   }
 
@@ -151,11 +152,12 @@ body {
     font-weight: 600;
     align-self: flex-end;
     color: #fff;
+ 
   }
 
   .header .heading-container-left{
     justify-content:flex-end;
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
     text-align:right
  
 }

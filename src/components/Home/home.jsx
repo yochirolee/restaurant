@@ -79,7 +79,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <button className="btn btn-warning" type="submit">
+          <button className="btn btn-warning mb-5" type="submit">
             Registrarse
           </button>
         </form>
