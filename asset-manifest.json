@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/restaurant/static/css/main.a3070627.chunk.css",
-    "main.js": "/restaurant/static/js/main.c307ff04.chunk.js",
-    "main.js.map": "/restaurant/static/js/main.c307ff04.chunk.js.map",
+    "main.css": "/restaurant/static/css/main.3ba54745.chunk.css",
+    "main.js": "/restaurant/static/js/main.3b0e53d4.chunk.js",
+    "main.js.map": "/restaurant/static/js/main.3b0e53d4.chunk.js.map",
     "runtime-main.js": "/restaurant/static/js/runtime-main.d81fd9cc.js",
     "runtime-main.js.map": "/restaurant/static/js/runtime-main.d81fd9cc.js.map",
     "static/css/2.af3c1da9.chunk.css": "/restaurant/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.12501000.chunk.js": "/restaurant/static/js/2.12501000.chunk.js",
-    "static/js/2.12501000.chunk.js.map": "/restaurant/static/js/2.12501000.chunk.js.map",
+    "static/js/2.943cbf47.chunk.js": "/restaurant/static/js/2.943cbf47.chunk.js",
+    "static/js/2.943cbf47.chunk.js.map": "/restaurant/static/js/2.943cbf47.chunk.js.map",
     "index.html": "/restaurant/index.html",
-    "precache-manifest.acf4dbe62d1c935773374779dce04a5a.js": "/restaurant/precache-manifest.acf4dbe62d1c935773374779dce04a5a.js",
+    "precache-manifest.ed92f8075d3a6dc2d026b11904c589f1.js": "/restaurant/precache-manifest.ed92f8075d3a6dc2d026b11904c589f1.js",
     "service-worker.js": "/restaurant/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/restaurant/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.a3070627.chunk.css.map": "/restaurant/static/css/main.a3070627.chunk.css.map",
-    "static/js/2.12501000.chunk.js.LICENSE.txt": "/restaurant/static/js/2.12501000.chunk.js.LICENSE.txt",
+    "static/css/main.3ba54745.chunk.css.map": "/restaurant/static/css/main.3ba54745.chunk.css.map",
+    "static/js/2.943cbf47.chunk.js.LICENSE.txt": "/restaurant/static/js/2.943cbf47.chunk.js.LICENSE.txt",
     "static/media/aji-picante.svg": "/restaurant/static/media/aji-picante.f59b2a87.svg",
     "static/media/demo1-0901996381-1.jpg": "/restaurant/static/media/demo1-0901996381-1.381d6250.jpg",
     "static/media/all.css": "/restaurant/static/media/fa-solid-900.d6d8d5da.woff2",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.d81fd9cc.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.12501000.chunk.js",
-    "static/css/main.a3070627.chunk.css",
-    "static/js/main.c307ff04.chunk.js"
+    "static/js/2.943cbf47.chunk.js",
+    "static/css/main.3ba54745.chunk.css",
+    "static/js/main.3b0e53d4.chunk.js"
   ]
 }
