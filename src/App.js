@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ProductCardsContainer from "./components/ProductCard/productCardsContainer";
 import { ProductProvider } from "./Context/ProductContext";
 import { ProductsInCardProvider } from "./Context/ProductsInCartContext";
+import NavBarBoostrap from "./components/NavBar/navBarBoostrap";
 /*<ProductsInCardProvider>
         <NavBarLogged />
 
@@ -18,7 +19,7 @@ import { ProductsInCardProvider } from "./Context/ProductsInCartContext";
 function App() {
   return (
     <Fragment>
-        <NavBar/>
+        <NavBarBoostrap/>
         <Home/>
     </Fragment>
   );
