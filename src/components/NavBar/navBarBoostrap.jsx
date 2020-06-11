@@ -7,6 +7,7 @@ import {
   Form,
   FormControl,Dropdown
 } from "react-bootstrap";
+import Facebook from "../Social/facebook";
 
 
 export default function navBarBoostrap() {
@@ -44,7 +45,7 @@ export default function navBarBoostrap() {
 
             <Dropdown.Menu>
               <Dropdown.Item href="#/action-1"><i className="fa fa-user"></i>TuPizza</Dropdown.Item>
-              <Dropdown.Item href="#/action-2"><i className="fab fa-facebook-f"></i>Login with Facebook</Dropdown.Item>
+               <Dropdown.Item href=""><Facebook/></Dropdown.Item>
               <Dropdown.Item href="#/action-3"><i className="fab fa-google"></i>Login with Gmail</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>

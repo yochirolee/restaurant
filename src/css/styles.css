@@ -165,7 +165,7 @@ body {
 
   #basic-navbar-nav {
    display: flex;
-  
+   flex-direction: row;
   
   }
   .navbar-light .navbar-toggler-icon{

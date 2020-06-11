@@ -9,6 +9,7 @@ import ProductCardsContainer from "./components/ProductCard/productCardsContaine
 import { ProductProvider } from "./Context/ProductContext";
 import { ProductsInCardProvider } from "./Context/ProductsInCartContext";
 import NavBarBoostrap from "./components/NavBar/navBarBoostrap";
+import Facebook from "./components/Social/facebook";
 /*<ProductsInCardProvider>
         <NavBarLogged />
 
@@ -20,6 +21,7 @@ function App() {
   return (
     <Fragment>
         <NavBarBoostrap/>
+      
         <Home/>
     </Fragment>
   );
