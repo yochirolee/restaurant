@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="header">
-      <div className="heading-container-left">
-        <div className="left-info">
-          <h1>Entrega Gratis!!!</h1>
-          <ul className="navbar-nav">
-            <li className="nav-item">
+    <div className="header row" >
+      <div  className="heading-container-left  col-lg-6 col-md-12">
+        <div className="left-info"  >
+          <h1 >Entrega Gratis!!!</h1>
+          <ul className="navbar-nav "  >
+            <li className="nav-item" >
               <i className="fa fa-phone-alt"> </i> +53 7 303-33-33
             </li>
             <li className="nav-item">
@@ -17,7 +17,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="heading-container-right ">
+      <div className="heading-container-right col-lg-6 col-md-12">
         <form className="col-8">
           <div>
             <div className="mb-3">

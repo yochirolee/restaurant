@@ -119,3 +119,45 @@ body {
 .was-validated .form-check-input:invalid ~ .form-check-label {
   color: #fff;
 }
+
+
+
+@media only screen and (max-width: 760px) {
+ 
+  .header {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0em;
+    background:#d1333c;
+    overflow: hidden;
+    background-image: url(../assets/img/person-pizza.jpg) ;
+    background-size: 100vw 35%;
+    background-repeat: no-repeat;
+    
+  }
+
+  #overlay {
+   
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+   
+    background-color: rgba(0, 0, 0, 0.123); /* Black background with opacity */
+    z-index:2 ; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+  .header h1 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    align-self: flex-end;
+    color: #fff;
+  }
+
+  .header .heading-container-left{
+    justify-content:flex-end;
+    margin-bottom: 0rem;
+    text-align:right
+ 
+}
+  
+}
