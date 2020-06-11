@@ -8,6 +8,7 @@ import {
   FormControl,Dropdown
 } from "react-bootstrap";
 import Facebook from "../Social/facebook";
+import { FacebookProvider } from "../../Context/FacebookContext";
 
 
 export default function navBarBoostrap() {

@@ -1,26 +1,25 @@
-import React, { useState, ReactDOM } from "react";
+import React, { useContext } from "react";
 import FacebookLogin from "react-facebook-login/dist/facebook-login-render-props";
+import { FacebookContext } from "../../Context/FacebookContext";
 
-export default function Facebook() {
-  const [userId, setUserId] = useState();
-  const [name, setName] = useState();
-  const [picture, setPicture] = useState();
-  const [email, setEmail] = useState();
-  const [isLoggin, setIsLoggin] = useState(false);
+export default function Facebook(props) {
+  const [facebookLogin, setFacebookLogin] = useContext(FacebookContext);
 
   const responseFacebook = (response) => {
-    console.log(response);
-    if (response === "unknown") return;
-    setName(response.name);
-    setEmail(response.email);
+    
 
-    console.log(name, email);
+    let faceLogin = {
+      userId: response.id,
+      name: response.name,
+      email: response.email,
+      picture: response.picture.data.url,
+      isLogin: true,
+    };
+   // setFacebookLogin(facebookLogin => ({ ...facebookLogin, isLogin: 'Perico' }));
+     setFacebookLogin(faceLogin);
   };
-  const componentClicked = () => {};
 
-  return isLoggin ? (
-    <h1>loggin</h1>
-  ) : (
+  return (
     <div>
       <FacebookLogin
         appId="3018282618259498"
@@ -28,7 +27,9 @@ export default function Facebook() {
         callback={responseFacebook}
         fields="name,email,picture"
         render={(renderProps) => (
-          <i className="fab fa-facebook-f" onClick={renderProps.onClick}>Facebook</i>
+          <i className="fab fa-facebook-f" onClick={renderProps.onClick}>
+            Facebook
+          </i>
         )}
       />
     </div>

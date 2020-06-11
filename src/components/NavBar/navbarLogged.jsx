@@ -1,10 +1,12 @@
-import React from "react";
+import React,{useContext} from "react";
 import "./navBarLogged.css";
 import logo from "../../assets/img/logo.png";
 import ShoppingCart from "../ShoppingCart/ShoppingCartCount";
+import {FacebookContext} from "../../Context/FacebookContext";
 
 export default function NavBarLogged() {
-
+  
+  const [facebookLogin, setFacebookLogin] = useContext(FacebookContext);
     
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-primary-color">
@@ -25,11 +27,10 @@ export default function NavBarLogged() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="nav-cart">
-          <ul className="navbar-nav">
-            <li>
-              <i className="fa fa-user-circle"></i>Yochiro
-            </li>
-          </ul>
+       
+                  <img src={facebookLogin.picture} alt={facebookLogin.name}></img>
+                   <p> {facebookLogin.name} </p> 
+          
         </div>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ShoppingCart />
