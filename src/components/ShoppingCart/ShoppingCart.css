@@ -1,56 +1,63 @@
 .collapse {
 }
 
-.cart-list {
-  position: absolute;
-  background-color: #fff;
-  border: 1px solid rgba(61, 15, 15, 0);
-  border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
-  color: black;
-  padding: 1rem;
-}
-
-.cart-list p{
-    font-size: 16px;
-
-}
-.list-cart-img img{
-    max-width: 24px;
-}
 
 #multiCollapseExample1 {
   position: absolute;
   right: 1%;
 }
 
-.cart-list-button-container{
-    border-top: 1px solid rgba(61, 15, 15, 0);
-}
-.cart-list-button-container .btn
-{
-    margin: 1rem;
-   
-    
-}
-
-.list-cart-subtotal{
-    display:flex;
+.payment-container {
+    display: flex;
     flex-direction: row;
-    padding-top: 1rem;
-    align-content: space-between;
-    
-    border-top: 1px solid rgba(122, 117, 117, 0.342);
-    border-bottom: 1px solid rgba(122, 117, 117, 0.342);
-   
-
-
-}
-
-.list-cart-subtotal span{
-    position: absolute;
-    right: 19%;;
-}
+    min-height: 92vh;
+    margin: 0em;
+  
+    overflow: hidden;
+    background-color: #d1333c;
+  }
+  
+  
+  
+  .payment-card label{
+      font-size: 14px;
+  }
+  
+  .payment-card {
+    margin: 2px;
+    padding:1rem;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    color: #2f303a;
+  }
+  .payment-card h5{
+      font-size: 14px;
+  }
+  .payment-card p {
+    font-size: 16px;
+  }
+  .payment-products-detail p{
+      font-size: 14px;
+  }
+  
+  .row-card-payment {
+    width: 100%;
+  }
+  
+  
+  .row .payment-card-subtotal{
+      border-top: 1px solid rgba(39, 30, 30, 0.226);
+      border-bottom: 1px solid rgba(39, 30, 30, 0.226);
+      margin-top:4px;
+      padding-top:15px;
+      
+  }
+  
+  .row .payment-card-total{
+      margin-top:4px;
+      padding-top:15px;
+      
+  }
+  

@@ -1,12 +1,15 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, Fragment } from "react";
 import { ProductsInCartContext } from "../../Context/ProductsInCartContext";
 import "./ShoppingCart.css";
-import pizza1 from "../../assets/img/demo1-0901996381-1.jpg";
+import {FacebookContext} from "../../Context/FacebookContext";
 
-export default function ShoppingCartList() {
+import { Link } from "react-router-dom";
+
+export default function ShoppingCartList(props) {
   const [productsInCart, setProductsInCart] = useContext(ProductsInCartContext);
+  const [facebookLogin, setFacebookLogin] = useContext(FacebookContext);
 
-
+  console.log("PRODUCTS IN CART",productsInCart);
   const HandleRemoveProduct=(id)=>{
      
     let auxProduct=[...productsInCart];
@@ -24,23 +27,40 @@ export default function ShoppingCartList() {
     return Total;
   };
 
+
+  
+
   return (
-      
+      <Fragment>
     <div class="collapse " id="multiCollapseExample1">
-      <div className="cart-list col">
-        {productsInCart.map((product,index) => (
-          <div className="row"  key={index}>
-            <div className="list-cart-img col-2">
-              <img src={pizza1}></img>
-            </div>
-            <div className="col-6">
-              <p>{product.name}</p>
-            </div>
-            <div className="col-2">
-              <p>{product.price}</p>
-            </div>
-            <div className="col-2">
-              <button
+    <div className=" payment-card">
+        <form>
+                  <div class="form-group  mx-auto">
+                    <label for="exampleInputEmail1" >Nombre</label>
+                    <input type="text" class="form-control" value={facebookLogin.name}></input>
+
+                    <label for="exampleInputEmail1">Telefono</label>
+                    <input type="text" class="form-control"></input>
+
+                    <label for="exampleInputEmail1">Direccion</label>
+                    <textarea
+                      class="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                </form>
+              <div className="row row-card-payment">
+                <h5 className="col-8">Productos</h5>
+                <h5 className="col-4"> Precio</h5>
+              </div>
+
+              {productsInCart.map((product,index) => (
+                <div className=" row payment-products-detail"  key={index}>
+                  <p className="col-8">{product.name}</p>
+                  <p className="col-4">
+                    {product.price}
+                    <span> cuc</span> <button
                 type="button"
                 class="ml-2 mb-1 close"
                 data-dismiss="toast"
@@ -49,18 +69,32 @@ export default function ShoppingCartList() {
               >
                 <span aria-hidden="true">&times;</span>
               </button>
+                  </p>
+                </div>
+              ))}
+              <div className="row payment-card-subtotal">
+                <h5 className="col-8">SubTotal:</h5>
+                <p className="col-4">
+                {getTotal().toFixed(2)}<span> cuc</span>
+                </p>
+              </div>
+
+              <div className="row payment-card-total">
+                <h4 className="col-8">Total:</h4>
+                <p className="col-4">
+                {getTotal().toFixed(2)}<span> cuc</span>
+                </p>
+              </div>
+
+              <div>
+                <button className="btn btn-block btn-dark">Ordenar</button>
+              </div>
             </div>
-          </div>
-        ))}
-        <div className="list-cart-subtotal">
-          <div><p>SubTotal:</p></div>
-          <span>{getTotal().toFixed(2)}</span>
-        </div>
-        <div className="cart-list-button-container">
-          <button className="btn btn-warning ">Ordenar</button>
-         
-        </div>
-      </div>
+     
     </div>
+
+   
+    
+     </Fragment>
   );
 }

@@ -2,7 +2,10 @@ import React, { useContext, useState } from "react";
 
 import aji from "../../assets/img/aji-picante.svg";
 import hoja from "../../assets/img/hoja.svg";
-import pizza1 from "../../assets/img/demo1-0901996381-1.jpg";
+import pizza1 from "../../assets/img/pizza-ring.jpg";
+import pizza2 from "../../assets/img/pizza-chorizo.jpg";
+import pizza3 from "../../assets/img/pizza-mixta.jpg";
+import pizza4 from "../../assets/img/pizza-aceitunas.jpg";
 import Counter from "../Counter/Counter";
 import { ProductsInCartContext } from "../../Context/ProductsInCartContext";
 
@@ -40,7 +43,7 @@ export default function ProductCard(props) {
   return (
     <div class="col-lg-3 col-sm-12">
       <div className="card">
-        <img src={pizza1} />
+        <img src={product.picture} />
         <div className="container-product-name">
           <p>{product.name}</p>
         </div>

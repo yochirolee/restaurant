@@ -1,37 +1,35 @@
 import React, { Fragment, useContext } from "react";
 
-import NavBarLogged from "../../components/NavBar/navbarLogged";
-import Home from "./home";
-import ProductCardsContainer from "../../components/ProductCard/productCardsContainer";
-import { ProductProvider } from "../../Context/ProductContext";
-import { ProductsInCardProvider } from "../../Context/ProductsInCartContext";
-import NavBarBoostrap from "../../components/NavBar/navBarBoostrap";
-import { FacebookContext, FacebookProvider } from "../../Context/FacebookContext";
-import { useEffect } from "react";
-import Facebook from "../../components/Social/facebook";
+
+import { FacebookContext } from "../../Context/FacebookContext";
+import {HomePage,ProductsPage,PaymentPage} from "../../Pages/HomePage";
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 /**/
 export default function Init() {
 
-   const [facebookLogin, setFacebookLogin] = useContext(FacebookContext);
+   const [facebookLogin] = useContext(FacebookContext); 
   
 
+   //facebookLogin.isLogin
 
-
-  return facebookLogin.isLogin ? (
-    <ProductsInCardProvider>
-      
-        <NavBarLogged />
-      
-      <ProductProvider>
-        <ProductCardsContainer />
-      </ProductProvider>
-    </ProductsInCardProvider>
+  return (facebookLogin.isLogin) ? (
+    <Router>
+      <Switch>
+          <Route path="/" exact component={ProductsPage} /> 
+          <Route path="/payment" exact  component={PaymentPage} /> 
+       </Switch>
+     </Router>
+    
   ) : (
-    <Fragment>
-      <NavBarBoostrap /> 
-      <Home />
-    </Fragment>
+      <HomePage/>
   );
+
+
+ 
 }
+
+
+
 
 
