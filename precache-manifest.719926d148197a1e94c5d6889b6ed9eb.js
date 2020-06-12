@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2edb95877a945dba148b61422c434bd0",
+    "revision": "286992aed5881c1ce410403463509785",
     "url": "/restaurant/index.html"
   },
   {
-    "revision": "d04651faf0e8f6244a1e",
+    "revision": "1f6d0545e27d9c42e5da",
     "url": "/restaurant/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "a9d4876f6cb8feec084d",
-    "url": "/restaurant/static/css/main.7ec2646a.chunk.css"
+    "revision": "35dc716452033af83f66",
+    "url": "/restaurant/static/css/main.4048cfbc.chunk.css"
   },
   {
-    "revision": "d04651faf0e8f6244a1e",
-    "url": "/restaurant/static/js/2.4ad42f86.chunk.js"
+    "revision": "1f6d0545e27d9c42e5da",
+    "url": "/restaurant/static/js/2.eb128587.chunk.js"
   },
   {
-    "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/restaurant/static/js/2.4ad42f86.chunk.js.LICENSE.txt"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "/restaurant/static/js/2.eb128587.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a9d4876f6cb8feec084d",
-    "url": "/restaurant/static/js/main.9159463f.chunk.js"
+    "revision": "35dc716452033af83f66",
+    "url": "/restaurant/static/js/main.659f5904.chunk.js"
   },
   {
     "revision": "b3153e1c7af9198e2669",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f59b2a87b6fe2563981b316a949bca2d",
     "url": "/restaurant/static/media/aji-picante.f59b2a87.svg"
-  },
-  {
-    "revision": "381d6250817ec237ffd5bf3b442c29c7",
-    "url": "/restaurant/static/media/demo1-0901996381-1.381d6250.jpg"
   },
   {
     "revision": "14c590d124662eb50efa4c00f027b79c",
@@ -106,5 +102,21 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c095e1776b53f9e12870ca7d2b58a297",
     "url": "/restaurant/static/media/person-pizza.c095e177.jpg"
+  },
+  {
+    "revision": "381d6250817ec237ffd5bf3b442c29c7",
+    "url": "/restaurant/static/media/pizza-aceitunas.381d6250.jpg"
+  },
+  {
+    "revision": "a3da4f56e46952ffd9a1e5ca69374a7c",
+    "url": "/restaurant/static/media/pizza-chorizo.a3da4f56.jpg"
+  },
+  {
+    "revision": "50fd5661b8a42024d473736a9650fc8f",
+    "url": "/restaurant/static/media/pizza-mixta.50fd5661.jpg"
+  },
+  {
+    "revision": "a97a114fd2ea287b73637f3215a7294d",
+    "url": "/restaurant/static/media/pizza-ring.a97a114f.jpg"
   }
 ]);

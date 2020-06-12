@@ -1,31 +1,34 @@
 {
   "files": {
-    "main.css": "/restaurant/static/css/main.7ec2646a.chunk.css",
-    "main.js": "/restaurant/static/js/main.9159463f.chunk.js",
-    "main.js.map": "/restaurant/static/js/main.9159463f.chunk.js.map",
+    "main.css": "/restaurant/static/css/main.4048cfbc.chunk.css",
+    "main.js": "/restaurant/static/js/main.659f5904.chunk.js",
+    "main.js.map": "/restaurant/static/js/main.659f5904.chunk.js.map",
     "runtime-main.js": "/restaurant/static/js/runtime-main.d81fd9cc.js",
     "runtime-main.js.map": "/restaurant/static/js/runtime-main.d81fd9cc.js.map",
     "static/css/2.af3c1da9.chunk.css": "/restaurant/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.4ad42f86.chunk.js": "/restaurant/static/js/2.4ad42f86.chunk.js",
-    "static/js/2.4ad42f86.chunk.js.map": "/restaurant/static/js/2.4ad42f86.chunk.js.map",
+    "static/js/2.eb128587.chunk.js": "/restaurant/static/js/2.eb128587.chunk.js",
+    "static/js/2.eb128587.chunk.js.map": "/restaurant/static/js/2.eb128587.chunk.js.map",
     "index.html": "/restaurant/index.html",
-    "precache-manifest.08f16d22b27cee7ef1bd79fa916103da.js": "/restaurant/precache-manifest.08f16d22b27cee7ef1bd79fa916103da.js",
+    "precache-manifest.719926d148197a1e94c5d6889b6ed9eb.js": "/restaurant/precache-manifest.719926d148197a1e94c5d6889b6ed9eb.js",
     "service-worker.js": "/restaurant/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/restaurant/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.7ec2646a.chunk.css.map": "/restaurant/static/css/main.7ec2646a.chunk.css.map",
-    "static/js/2.4ad42f86.chunk.js.LICENSE.txt": "/restaurant/static/js/2.4ad42f86.chunk.js.LICENSE.txt",
+    "static/css/main.4048cfbc.chunk.css.map": "/restaurant/static/css/main.4048cfbc.chunk.css.map",
+    "static/js/2.eb128587.chunk.js.LICENSE.txt": "/restaurant/static/js/2.eb128587.chunk.js.LICENSE.txt",
     "static/media/aji-picante.svg": "/restaurant/static/media/aji-picante.f59b2a87.svg",
-    "static/media/demo1-0901996381-1.jpg": "/restaurant/static/media/demo1-0901996381-1.381d6250.jpg",
     "static/media/all.css": "/restaurant/static/media/fa-solid-900.d6d8d5da.woff2",
     "static/media/hoja.svg": "/restaurant/static/media/hoja.e126423d.svg",
     "static/media/logo.png": "/restaurant/static/media/logo.20c2322d.png",
-    "static/media/styles.css": "/restaurant/static/media/person-pizza.c095e177.jpg"
+    "static/media/styles.css": "/restaurant/static/media/person-pizza.c095e177.jpg",
+    "static/media/pizza-aceitunas.jpg": "/restaurant/static/media/pizza-aceitunas.381d6250.jpg",
+    "static/media/pizza-chorizo.jpg": "/restaurant/static/media/pizza-chorizo.a3da4f56.jpg",
+    "static/media/pizza-mixta.jpg": "/restaurant/static/media/pizza-mixta.50fd5661.jpg",
+    "static/media/pizza-ring.jpg": "/restaurant/static/media/pizza-ring.a97a114f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d81fd9cc.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.4ad42f86.chunk.js",
-    "static/css/main.7ec2646a.chunk.css",
-    "static/js/main.9159463f.chunk.js"
+    "static/js/2.eb128587.chunk.js",
+    "static/css/main.4048cfbc.chunk.css",
+    "static/js/main.659f5904.chunk.js"
   ]
 }
